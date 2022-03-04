@@ -1,24 +1,15 @@
-# Bot-Template
-Discord.js v13でBotを作る際のテンプレート
-
-# Bot-Template
-The template for Version13 Discord.js Bot
-With EvalCommand and SlashCommand :)
-
-## 使い方
-1. Botを`applications.commands`スコープ付きで導入
-2. `BOT_TOKEN`という環境変数にBotのTOKENを入れる
-3. `npx node register.js コマンドを使うサーバーID`を実行
-4. `npx node index.js`でBot実行
-
-## Manual
-1. Invite your BotClient to your any guilds with `Bot` and `application.commands` permissions.
-2. Insert the Token to `BOT_TOKEN` enviroment variables.
-3. Run `npx node register.js GuildID` in shell.
-4. Run `npx node index.js` in shell.
-
-## 注意
-使い方 3.のサーバーIDはGuildCommandとして設定するためのものです。GlobalCommandとして登録する場合は空欄にしてください。
-
-## Notice
-The "GuildID" of Step3 value is for setting up GuilsCommand. Please put it blank when you want setup GlobalCommand.
+# 渚-なぎさ- Discord.js Ver13 Bot Sourcecode<br>
+このテンプレートは[こちら](https://github.com/AuroraBot-Discord/Bot-Template)のテンプレートを一部使用させていただいております。<br>
+## 注意事項<br>
+このコードはDiscord.jsのBotのさらなる発展と、ソースコードのバックアップのために保管されているものです。<br>
+そのため、無断でコードを一部使用すること、このコード内の絵文字、画像、またはコード丸ごとを他のBotで使用することは禁止いたします。<br>
+このコードの著作権はMarinebotProjectならびにNagisabotProjectの帰属します。<br>
+### 具体的な禁止事項<br>
+・ソースコード全体の窃用<br>
+・ソースコード内の画像、絵文字等を著作権者の許可なく使用、無断転載、自作発言等をすること<br>
+・その他ライセンスファイルに違反する行為<br>
+## 連絡先<br>
+このコードを一部使用されたい場合、またはその他質問等がある場合は、Discordで`ぱる！#9999`までお問い合わせください。<br>
+<br>
+<br>
+©︎2022 MarinebotProject/NagisabotProject All Rights Reserved.
