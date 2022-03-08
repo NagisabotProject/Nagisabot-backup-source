@@ -52,8 +52,8 @@ client.on("messageCreate", async (message) => {
 				.setDescription("`" + message.content + "`というコマンドが見つかりませんでした！")
 				.setFooter({text: `ErrorCode:00-1(Command not found)`})
 				.setColor("RED")
-			]
-		, allowedMentions : {repliedUser : false}})
+			], allowedMentions : {repliedUser : false}
+		})
 	}
 });
 
