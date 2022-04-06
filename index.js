@@ -59,12 +59,12 @@ client.on("messageCreate", async (message) => {
   	if (!message.content.startsWith(prefix)) return;
   	const args = message.content.slice(prefix.length).trim().split(/ +/g);
   	const command = args.shift().toLowerCase();
-	if (command === 'yt-together') {
-        if(message.member.voice.channel) {
-        	client.discordTogether.createTogetherCode(message.member.voice.channel.id, 'youtube').then(async invite => {
-                return message.channel.send(`${invite.code}`);
-            })
-        }
+	if (command === 'activity_yt') {
+        	if(message.member.voice.channel) {
+        		client.discordTogether.createTogetherCode(message.member.voice.channel.id, 'youtube').then(async invite => {
+                		return message.channel.send(`${invite.code}`);
+            		})
+        	}
     } else if (command === "eval") {
     	if (!["716343156513439845"].includes(message.author.id)) return message.reply({ 
 			embeds: [new MessageEmbed()
