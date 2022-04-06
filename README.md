@@ -3,7 +3,7 @@
 ## 注意事項<br>
 このコードはDiscord.jsのBotのさらなる発展と、ソースコードのバックアップのために保管されているものです。<br>
 そのため、無断でコードを一部、または全部を使用すること、このコード内の絵文字、画像、またはコード丸ごとを他のBotで使用することは禁止いたします。<br>
-このソースコードの一部を使いたい場合は[こちらのEmailアドレス](mailTo:tsukasa.me@protonmail.com)まで申請をお願いします。
+このソースコードの一部を使いたい場合は[こちらのEmailアドレス(tsukasa.me@protonmail.com)](mailTo:tsukasa.me@protonmail.com)まで申請をお願いします。
 このコードの著作権はMarinebotProjectならびにNagisabotProjectに帰属します。<br>
 ### 具体的な禁止事項<br>
 ・ソースコード全体の窃用<br>
